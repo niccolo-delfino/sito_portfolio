@@ -637,3 +637,27 @@
 .f-50 {
   font-size: 50px;
 }
+
+.primary-color {
+  color: #ffde29;
+}
+
+.secondary-color {
+  color: #000000;
+}
+
+.tertiary-color {
+  color: #111111;
+}
+
+.primary-bg {
+  background-color: #ffde29;
+}
+
+.secondary-bg {
+  background-color: #000000;
+}
+
+.tertiary-bg {
+  background-color: #111111;
+}
