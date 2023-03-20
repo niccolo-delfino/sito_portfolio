@@ -1,0 +1,72 @@
+// PERSONAL FRAMEWORK
+
+@for $i from 1 through 10 {
+
+    //PADDING
+    .p-#{$i*5} {
+        padding: 5px * $i;
+    };
+
+    .pt-#{$i*5} {
+        padding-top: 5px * $i;
+    };
+        
+    .pb-#{$i*5} {
+        padding-bottom: 5px * $i;
+    };
+        
+    .pl-#{$i*5} {
+        padding-left: 5px * $i;
+    };
+        
+    .pr-#{$i*5} {
+        padding-right: 5px * $i;
+    };
+        
+    .px-#{$i*5} {
+        padding-right: 5px * $i;
+        padding-left: 5px * $i;
+    };
+
+    .py-#{$i*5} {
+        padding-top: 5px * $i;
+        padding-bottom: 5px * $i;
+    };
+
+    //MARGIN
+    .m-#{$i*5} {
+        margin: 5px * $i;
+    };
+    
+    .mt-#{$i*5} {
+        margin-top: 5px * $i;
+    };
+        
+    .mb-#{$i*5} {
+        margin-bottom: 5px * $i;
+    };
+        
+    .ml-#{$i*5} {
+        margin-left: 5px * $i;
+    };
+        
+    .mt-#{$i*5} {
+        margin-right: 5px * $i;
+    };
+        
+    .mx-#{$i*5} {
+        margin-right: 5px * $i;
+        margin-left: 5px * $i;
+    };
+
+    .my-#{$i*5} {
+        margin-top: 5px * $i;
+        margin-bottom: 5px * $i;
+    };
+
+    //FONT SIZE
+    .f-#{$i*5} {
+        font-size: 5px * $i;
+    };
+        
+};
