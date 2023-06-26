@@ -1,0 +1,30 @@
+//COLORS
+
+$primary-color: #ffde29;
+$secondary-color: #000000;
+$tertiary_color: #111111;
+
+// COLORS CLASSES
+.primary-color{
+    color: $primary-color;
+};
+
+.secondary-color{
+    color: $secondary-color;
+};
+
+.tertiary-color{
+    color: $tertiary-color;
+};
+
+.primary-bg{
+    background-color: $primary-color;
+};
+
+.secondary-bg{
+    background-color: $secondary-color;
+};
+
+.tertiary-bg{
+    background-color: $tertiary-color;
+};
