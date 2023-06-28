@@ -6,3 +6,18 @@
 .active{
     background-color: pink;
 }
+
+#jumbotron {
+    height: 100vh;
+    margin-top: 0px;
+    background-color: burlywood;
+}
+
+
+@media screen and (max-width: 768px) {
+    #jumbotron {
+        height: 100%;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    }
+  }
