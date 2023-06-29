@@ -663,6 +663,14 @@
   background-color: #111111;
 }
 
+.text-grey {
+  color: #eeeeee;
+}
+
+.card-body {
+  background-color: #000000;
+}
+
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -5008,9 +5016,9 @@ textarea.form-control-lg {
   --bs-card-subtitle-color: ;
   --bs-card-border-width: var(--bs-border-width);
   --bs-card-border-color: var(--bs-border-color-translucent);
-  --bs-card-border-radius: var(--bs-border-radius);
+  --bs-card-border-radius: 0px;
   --bs-card-box-shadow: ;
-  --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+  --bs-card-inner-border-radius: calc(0px - (var(--bs-border-width)));
   --bs-card-cap-padding-y: 0.5rem;
   --bs-card-cap-padding-x: 1rem;
   --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
@@ -12648,6 +12656,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: lavender;
+}
+
 .active {
   background-color: pink;
 }

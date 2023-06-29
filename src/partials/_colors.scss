@@ -3,6 +3,7 @@
 $primary-color: #ffde29;
 $secondary-color: #000000;
 $tertiary_color: #111111;
+$text_grey: #eeeeee;
 
 // COLORS CLASSES
 .primary-color{
@@ -28,3 +29,12 @@ $tertiary_color: #111111;
 .tertiary-bg{
     background-color: $tertiary-color;
 };
+
+.text-grey{
+    color: $text_grey;
+}
+
+//COMPONENTS
+.card-body{
+    background-color: $secondary-color;
+}

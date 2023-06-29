@@ -13,7 +13,7 @@
 
     <!-- NAV -->
     <div class="container">
-      <nav class="navbar navbar-expand-lg bg-light" id="navbar-example2">
+      <nav class="navbar navbar-expand-lg bg-light" id="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -23,10 +23,10 @@
           <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#scrollspyHeading">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading1">Services</a>
+                <a class="nav-link" href="#services">Services</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Works</a>
@@ -53,7 +53,7 @@
     <section id="jumbotron">
       <div class="container h-100">
         <div class="row d-flex align-items-center h-100">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 text-center text-md-start">
             <span>Hello, my name is <b>Paya</b></span>
             <h5>I am a</h5>
             <h1>Web Developer</h1>
@@ -68,11 +68,83 @@
 
   </header>
 
+  <main data-bs-spy="scroll" data-bs-target="#navbar">
+
+    <!-- MY SEERVICES -->
+    <section id="services">
+      <div class="container">
+        <h2 class="text-center">My Services</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white">Web Design</h5>
+                <p class="card-text text-grey">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white">Web Development</h5>
+                <p class="card-text text-grey">This is a short card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white">Social Media</h5>
+                <p class="card-text text-grey">This is a longer card with supporting text below as a natural lead-in to additional
+                  content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white">Photography</h5>
+                <p class="card-text text-grey">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white">Branding</h5>
+                <p class="card-text text-grey">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white">Manketing</h5>
+                <p class="card-text text-grey">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
 
 
-<div data-bs-spy="scroll" data-bs-target="#navbar-example2">
-  <div id="scrollspyHeading" style="background-color: lightgray; height: 300px; width: 100%;"></div>
+
+<div>
+  <div style="background-color: lightgray; height: 300px; width: 100%;"></div>
   <div style="background-color: lightblue; height: 300px; width: 100%;"></div>
   <div style="background-color: lightcyan; height: 300px; width: 100%;"></div>
   <div style="background-color: lightcoral; height: 300px; width: 100%;"></div>
@@ -81,7 +153,7 @@
   <div style="background-color: lightblue; height: 300px; width: 100%;"></div>
   <div style="background-color: lightcyan; height: 300px; width: 100%;"></div>
   <div style="background-color: lightcoral; height: 300px; width: 100%;"></div>
-  <div id="scrollspyHeading1" style="background-color: pink; height: 300px; width: 100%;"></div>
+  <div style="background-color: pink; height: 300px; width: 100%;"></div>
 </div>
 
 
